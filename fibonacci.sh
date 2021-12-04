@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Basic script for printing fibonacci series till given number
+read num
 n=0
 a=0
 b=1
 
 echo $a
-while [ $n -lt 5 ]
+while [ $n -lt $num ]
 do
         c=$((a+b))
         echo $c
